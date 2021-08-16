@@ -1,0 +1,28 @@
+// main: main.less
+.rainbow-heading {
+  font-weight: bold;
+
+  &:after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: rgb(93, 182, 45);
+    background: linear-gradient(
+      90deg,
+      rgba(93, 182, 45, 1) 0%,
+      rgba(215, 210, 138, 1) 50%,
+      rgba(15, 171, 239, 1) 100%
+    );
+  }
+
+  &.rainbow-heading-centered {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    &:after {
+      margin-top: 20px;
+      width: 100px;
+    }
+  }
+}
