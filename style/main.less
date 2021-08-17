@@ -1,6 +1,7 @@
 // out: ../style.css
 @import "_postcard.less";
 @import "_rainbow-heading.less";
+@import "_istrazite.less";
 
 /**************
 variables 
@@ -23,6 +24,10 @@ body {
   font-size: var(--font);
   color: var(--fontColor);
   font-family: var(--font-family);
+}
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 a {
@@ -84,5 +89,18 @@ header {
     color: white;
     margin: 0;
     padding: 15px;
+  }
+}
+
+/*************
+footer
+*************/
+footer {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  h5 {
+    font-weight: bold;
   }
 }

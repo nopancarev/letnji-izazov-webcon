@@ -31,6 +31,12 @@
   margin-top: 20px;
   width: 100px;
 }
+.istrazite {
+  background-image: url(img/izleti.webp);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
 /**************
 variables 
 *************/
@@ -51,6 +57,10 @@ body {
   font-size: var(--font);
   color: var(--fontColor);
   font-family: var(--font-family);
+}
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 a {
   text-decoration: none;
@@ -110,4 +120,14 @@ header span {
   color: white;
   margin: 0;
   padding: 15px;
+}
+/*************
+footer
+*************/
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer h5 {
+  font-weight: bold;
 }
