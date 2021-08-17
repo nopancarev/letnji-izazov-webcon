@@ -78,6 +78,13 @@ hr {
   margin-top: 65px;
   margin-bottom: 65px;
 }
+.plavi-naslov {
+  color: var(--svetloPlava);
+  font-weight: bold;
+}
+.crna-slova {
+  color: black;
+}
 /*************
 nav
 *************/
@@ -99,7 +106,6 @@ nav ul li a {
 header
 *************/
 header {
-  background-image: url(img/header1.webp);
   height: 400px;
   background-size: cover;
   background-position: center;
