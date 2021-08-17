@@ -31,12 +31,6 @@
   margin-top: 20px;
   width: 100px;
 }
-.istrazite {
-  background-image: url(img/izleti.webp);
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-}
 /**************
 variables 
 *************/
@@ -82,6 +76,7 @@ footer {
 }
 hr {
   margin-top: 65px;
+  margin-bottom: 65px;
 }
 /*************
 nav
