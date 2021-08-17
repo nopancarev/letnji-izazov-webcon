@@ -58,6 +58,16 @@ a {
 ul {
   list-style: none;
 }
+.background {
+  background-color: var(--svetloSiva);
+}
+a.btn.btn-primary {
+  text-transform: uppercase;
+  background-color: white;
+  color: var(--fontColor);
+  border-radius: 0;
+  border-color: var(--fontColor);
+}
 /*************
 nav
 *************/
