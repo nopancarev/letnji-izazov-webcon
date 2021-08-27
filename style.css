@@ -58,9 +58,11 @@ section {
 }
 h2 {
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 a {
   text-decoration: none;
+  color: var(--fontColor);
 }
 ul {
   list-style: none;
@@ -79,7 +81,6 @@ footer {
 }
 hr {
   margin-top: 65px;
-  margin-bottom: 65px;
   color: var(--siva);
 }
 .plavi-naslov {
