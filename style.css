@@ -66,6 +66,7 @@ a {
 }
 ul {
   list-style: none;
+  color: var(--fontColor);
 }
 .background {
   background-color: var(--svetloSiva);
@@ -89,6 +90,9 @@ hr {
 }
 .crna-slova {
   color: black;
+}
+.italic {
+  font-style: italic;
 }
 /*************
 nav
