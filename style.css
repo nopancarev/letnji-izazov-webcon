@@ -95,8 +95,21 @@ hr {
 }
 .guide {
   text-align: left;
-  padding: 20px;
-  margin-bottom: 30px;
+  padding: 25px;
+  margin-bottom: 45px;
+}
+.card {
+  border: none;
+  padding-bottom: 20px;
+}
+p a {
+  color: var(--svetloPlava);
+}
+.guide ul li a {
+  line-height: 1.8;
+}
+.card-title {
+  font-weight: bold;
 }
 /*************
 nav
