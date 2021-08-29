@@ -60,6 +60,10 @@ h2 {
   margin-bottom: 50px;
   margin-top: 50px;
 }
+h5 {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
 a {
   text-decoration: none;
   color: var(--fontColor);
@@ -85,7 +89,8 @@ hr {
 }
 .plavi-naslov {
   color: var(--svetloPlava);
-  font-weight: bolder;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 .crna-slova {
   color: black;
@@ -95,7 +100,7 @@ hr {
 }
 .guide {
   text-align: left;
-  padding: 25px;
+  padding: 10px;
   margin-bottom: 45px;
 }
 .card {
@@ -162,7 +167,4 @@ footer {
 footer a {
   text-decoration: none;
   color: white;
-}
-footer h5 {
-  font-weight: bold;
 }
