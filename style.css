@@ -163,6 +163,7 @@ header span {
 footer
 *************/
 footer {
+  background-image: url(img/footer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -172,4 +173,21 @@ footer {
 footer a {
   text-decoration: none;
   color: white;
+}
+footer section {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/*************
+social-links
+*************/
+#social-links {
+  position: fixed;
+  right: 0;
+  top: 200px;
+}
+#social-links a {
+  display: block;
+  padding: 5px;
+  color: white;
+  text-align: center;
 }
