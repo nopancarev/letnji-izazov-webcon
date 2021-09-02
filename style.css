@@ -107,6 +107,10 @@ hr {
 .card {
   border: none;
 }
+.card .card-footer {
+  border: none;
+  background-color: var(--white);
+}
 p a {
   color: var(--svetloPlava);
 }
