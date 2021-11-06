@@ -123,30 +123,21 @@ p a {
 /*************
 nav
 *************/
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav ul {
-  display: flex;
-}
-nav ul li a {
+#navbarNav li a {
   color: var(--fontColor);
   text-transform: uppercase;
-  margin-left: 20px;
   font-weight: 600;
 }
 /*************
 header
 *************/
-header {
+#jumbotron {
   height: 400px;
   background-size: cover;
   background-position: center;
   position: relative;
 }
-header span {
+#jumbotron span {
   text-align: center;
   position: absolute;
   top: 50%;
